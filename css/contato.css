@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.contato {
+    clear: left;
+    background-color: white;
+    color: black;
+    font-size: 130%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+section address {
+    color: white;
+    font-size: 150%;
+    font-style: normal;
+    text-align: center;
+}
+
+/* Formatação do mapa */
+
+#mapa {
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+}
+
+/* Formatação do telefone */
+
+#telefone {
+    color: white;
+    text-align: center;
+    font-size: 130%;
+}
+
+#telefone a {
+    text-decoration: none;
+}
+
+#telefone a:link {
+    color: white;
+    text-decoration: underline;
+}

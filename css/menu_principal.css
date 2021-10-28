@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+body {
+    background-color: #272b35;
+
+    /*Centraliza o elemento horizontalmente dentro do elemento pai*/
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Define um valor para largura e altura máx e min, e o tamanho baseado no elemento pai*/
+    /*O elemento pai do body é a janela do browser*/
+    max-width: 960px;
+    min-width: 640px;
+    width: 95%;
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Configurações para a barra de menu no topo da página */
+
+body > header > a > img{
+    display: block;
+    width: 20%;
+    float: left;
+    margin-bottom: 2em;
+}
+
+nav.horizontalNavigation ul {
+list-style: none;
+padding: 0;
+margin: 0;
+margin-bottom: 2em;
+}
+
+nav.horizontalNavigation li {
+    color: white;
+    width: 20%;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 1.23em 0em;
+    margin-bottom: 2em;
+}
+
+nav.horizontalNavigation li:hover {
+    color: #d36857;
+    border-bottom: 1px solid #d36857;
+}
+
+/* Bloco de texto inicial */
+
+#blocoDeTexto ul {
+    clear: left;
+    list-style-type: square ;
+    padding: 2em;
+    background-color: rgba(255,255,255,0.7);
+    border: 2px solid #d36857;
+    border-radius: 10px;
+}
+
+
+#theCS {
+    font-style: normal;
+    font-size: 115%;
+}
+
+ul #listaConvite {
+    font-size: 120%;
+    list-style-type: none;
+
+}
+
+/* Bloco de imagens da página */
+
+#blocoDeImagens img {
+    display: block;
+    float: left;
+    width: 49.5%;
+    border: 2px solid white;
+ 
+}
+
+#blocoDeImagens2 img{
+display: block;
+float: left;
+width: 49.5%;
+border: 2px solid white;
+margin-bottom: 2em;
+}
+
+/* Footer - Endereço e telefone */
+
+footer {
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+/* Limpar a formatação de link */
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #ffa694;
+}
+

@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#sobreDepoimentos {
+    clear: left;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#Mariana img {
+    float: left;
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+#DepoimentoMariana {
+    color: white;
+    font-size: 120%;
+    clear: left;
+    float: left;
+    width: 49%;
+    margin-bottom: 2em;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+}

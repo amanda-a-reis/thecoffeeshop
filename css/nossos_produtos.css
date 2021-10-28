@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+section {
+    text-align: center;
+}
+
+#idNossosProdutos{
+    clear: left;
+    background-color: white;
+    margin-bottom: 0;
+    border-radius: 10px;
+    color: black;
+    font-size: 130%;
+    text-align: center
+    
+    
+}
+
+#blocoDeImagens2 img {
+    width: 100%;
+}
+ 
+/* Carta de Cafés */
+
+#cartaDeCafes {
+clear: left;
+background-color: white;
+color: black;
+font-size: 130%;
+text-align: center;
+border-radius: 10px;
+}
+
+section a {
+    text-decoration: none;
+}
+
+section a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+section a:visited {
+    color: white;
+    text-decoration: underline;
+}
