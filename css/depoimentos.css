@@ -1,28 +1,102 @@
 @charset "utf-8";
 
-#sobreDepoimentos {
-    clear: left;
-    color: black;
-    background-color: white;
-    border-radius: 10px;
-    padding: 1em;
-    text-align: center;
+/* Configurações para a barra de menu no topo da página */
+nav.horizontalNavigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     margin-bottom: 2em;
+    }
+    
+    nav.horizontalNavigation li {
+       background-color: black;
+        color: white;
+        width: 25%;
+        display: block;
+        float: left;
+        text-align: center;
+        padding: 1.23em 0em;
+        margin-bottom: 2em;
+    }
+    
+    nav.horizontalNavigation li:hover {
+        color: #d36857;
+        border-bottom: 4px solid #d36857;
+    }
+
+    nav a:link {
+        text-decoration: none;
+    }
+
+    nav a:visited{
+        color: white;
+    }
+
+    article img {
+        width: 100%;;
+    }
+    
+
+    /* Grid */
+
+
+body header {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-#Mariana img {
-    float: left;
-    width: 50%;
-    margin-bottom: 2em;
+body > header {
+    grid-row: 1;
+    grid-column: 1/-1;
 }
 
-#DepoimentoMariana {
+section article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Imagens */
+
+header img {
+    width: 100%;
+}
+
+section article img {
+    border: 4px solid #c88859;
+}
+
+
+/* Configurações da página */
+
+body {
+    background-color: #272b35;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
     color: white;
-    font-size: 120%;
-    clear: left;
-    float: left;
-    width: 49%;
-    margin-bottom: 2em;
-    padding-right: 0.5%;
-    padding-left: 0.5%;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* Configurações da Fonte */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+article p {
+    font-size: 150%;
+    color:black;
+    margin-top: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
+ 
+}
+
+section {
+    background-color: white;
 }

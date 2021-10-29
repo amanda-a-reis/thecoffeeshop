@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+body {
+background-color: #272b35;
+color: white;
+font-family: 'Poppins', sans-serif;
+
+}
+
+/* Configurações para a barra de menu no topo da página */
+nav.horizontalNavigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2em;
+    }
+    
+    nav.horizontalNavigation li {
+       background-color: black;
+        color: white;
+        width: 25%;
+        display: block;
+        float: left;
+        text-align: center;
+        padding: 1.23em 0em;
+        margin-bottom: 2em;
+    }
+    
+    nav.horizontalNavigation li:hover {
+        color: #d36857;
+        border-bottom: 4px solid #d36857;
+    }
+
+    nav a:link {
+        text-decoration: none;
+    }
+
+    nav a:visited{
+        color: white;
+    }
+
+/* Imagens */
+
+figure img {
+    width: 100%;
+    border: 2px solid white;
+}
+
+header a img{
+    width: 100%;
+}
+
+
+/* Drop Caps */
+#servicos:first-of-type::first-letter {
+    font-size: 3em;
+    line-height: 0.05;
+    font-family: 'Monoton', cursive;
+    text-align: center;
+}
+
+/*Formatação de fontes */
+
+h1,h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 2x solid white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+/* Parágrafo */
+
+p {
+    padding: 5%;
+}
+
+/* Sobre nossos serviços */
+
+#servicos {
+    clear: left;
+    font-size: 180%;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 0%;
+}
+
+/* FAQ */
+
+aside > h3{
+    color: black;
+    background-color: white;
+}
+
+aside > p {
+    color: black;
+    background-color: white;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}

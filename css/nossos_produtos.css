@@ -1,46 +1,116 @@
 @charset "utf-8";
 
-section {
-    text-align: center;
+/* Configurações para a barra de menu no topo da página */
+nav.horizontalNavigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2em;
+    }
+    
+    nav.horizontalNavigation li {
+       background-color: black;
+        color: white;
+        width: 25%;
+        display: block;
+        float: left;
+        text-align: center;
+        padding: 1.23em 0em;
+        margin-bottom: 2em;
+    }
+    
+    nav.horizontalNavigation li:hover {
+        color: #d36857;
+        border-bottom: 4px solid #d36857;
+    }
+
+    nav a:link {
+        text-decoration: none;
+    }
+
+    nav a:visited{
+        color: white;
+    }
+
+    article img {
+        width: 100%;;
+    }
+    
+
+    /* Grid */
+
+
+body header {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-#idNossosProdutos{
-    clear: left;
-    background-color: white;
-    margin-bottom: 0;
-    border-radius: 10px;
-    color: black;
-    font-size: 130%;
-    text-align: center
-    
-    
+body > header {
+    grid-row: 1;
+    grid-column: 1/-1;
 }
 
-#blocoDeImagens2 img {
+section article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Imagens */
+
+header img {
     width: 100%;
 }
+
+section article img {
+    border: 4px solid #c88859;
+}
+
+
+/* Configurações da página */
+
+body {
+    background-color: #272b35;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* Configurações da Fonte */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+article p {
+    font-size: 150%;
+    color:black;
+    margin-top: 30%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+
  
+}
+
+section {
+    background-color: white;
+}
+
 /* Carta de Cafés */
 
-#cartaDeCafes {
-clear: left;
-background-color: white;
-color: black;
-font-size: 130%;
-text-align: center;
-border-radius: 10px;
+article p a:link {
+    text-decoration: underline;
+    color: black;
 }
 
-section a {
+article p a:visited {
     text-decoration: none;
-}
-
-section a:link {
-    color: white;
-    text-decoration: underline;
-}
-
-section a:visited {
-    color: white;
-    text-decoration: underline;
+    color: #c88859;
 }

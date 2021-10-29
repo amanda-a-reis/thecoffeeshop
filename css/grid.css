@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* Body */
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "header header"
+    "intro faq"
+    "div faq"
+    "articles faq"
+    "footer footer";
+}
+
+
+/*Section */
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+figure {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+body > header {
+    grid-row: 1;
+    grid-column: 1/-1;
+}
+
+
+/* Atribuição de valores aos campos do grid */
+
+body > article {grid-area: intro;}
+body > aside {grid-area: faq;}
+body > section {grid-area: articles;}
+body > footer {grid-area: footer;}
+body > div {grid-area: div;}

@@ -6,24 +6,11 @@ body {
     /*Centraliza o elemento horizontalmente dentro do elemento pai*/
     margin-left: auto;
     margin-right: auto;
-
-    /* Define um valor para largura e altura máx e min, e o tamanho baseado no elemento pai*/
-    /*O elemento pai do body é a janela do browser*/
-    max-width: 960px;
-    min-width: 640px;
-    width: 95%;
-   
     font-family: 'Poppins', sans-serif;
 }
 
 /* Configurações para a barra de menu no topo da página */
 
-body > header > a > img{
-    display: block;
-    width: 20%;
-    float: left;
-    margin-bottom: 2em;
-}
 
 nav.horizontalNavigation ul {
 list-style: none;
@@ -34,7 +21,7 @@ margin-bottom: 2em;
 
 nav.horizontalNavigation li {
     color: white;
-    width: 20%;
+    width: 25%;
     display: block;
     float: left;
     text-align: center;
