@@ -49,6 +49,7 @@ nav.horizontalNavigation li {
 
 nav a:link {
     text-decoration: none;
+    color: black;
 }
 
 nav a:visited{
