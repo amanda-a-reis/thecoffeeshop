@@ -23,6 +23,7 @@ figure img {
     border: 2px solid white;
 }
 
+/*Lista de navegação */
 nav.horizontalNavigation ul {
     list-style: none;
     padding: 0;
@@ -42,14 +43,9 @@ nav.horizontalNavigation li {
      border-radius: 10px;
 }
 
- nav.horizontalNavigation li:hover {
-    color: #d36857;
-    border-bottom: 4px solid #d36857;
-}
-
 nav a:link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav a:visited{

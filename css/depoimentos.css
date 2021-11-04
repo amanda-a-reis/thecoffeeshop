@@ -1,5 +1,93 @@
 @charset "utf-8";
 
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+
+
+/* Body */
+body {
+    background-color: #272b35;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Logo */
+
+header a img {
+    width: 100%;
+}
+
+/*Lista de navegação */
+nav.horizontalNavigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2em;
+}
+nav.horizontalNavigation li {
+    background-color: black;
+     color: white;
+     display: block;
+     text-align: center;
+     padding: 3%;
+     width: 60%;
+     margin-bottom: 3%;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 10px;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited{
+    color: white;
+}
+
+/* Imagens */
+
+article img {
+    width: 100%;
+}
+
+/* Article */
+
+article {
+    background-color: white;
+    color: black;
+    margin-bottom: 5%;
+    box-shadow: rgba(24, 24, 24, 0.5) 5px 5px 5px 5px;
+}
+
+article p {
+    padding: 5%;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 100%;
+    margin-top: 10%;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 769px) {
 /* Configurações para a barra de menu no topo da página */
 nav.horizontalNavigation ul {
     list-style: none;
@@ -99,4 +187,5 @@ article p {
 
 section {
     background-color: white;
+}
 }
