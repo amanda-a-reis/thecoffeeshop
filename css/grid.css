@@ -1,4 +1,11 @@
 @charset "utf-8";
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 769px) {
 
 /* Body */
 body {
@@ -39,3 +46,5 @@ body > aside {grid-area: faq;}
 body > section {grid-area: articles;}
 body > footer {grid-area: footer;}
 body > div {grid-area: div;}
+
+}
